@@ -5,6 +5,7 @@
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=https://github.com/peperd/scrapy-whiskyshop&left_color=green&right_color=red)
 ![scrapy](https://img.shields.io/badge/-scrapy-090909??style=plastic&logo=scrapy)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/scrapy) 
+![Black](https://img.shields.io/badge/code_style-black-black)
 
 
 This crawl is made to parse https://www.whiskyshop.com/ and extract 
