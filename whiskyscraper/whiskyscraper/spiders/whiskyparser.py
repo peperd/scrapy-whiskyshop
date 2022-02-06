@@ -13,7 +13,7 @@ class WhiskyparserSpider(scrapy.Spider):
                     'price': products.css('span.price::text').get().replace('£', ''),
                     'link': products.css('a.product-item-link').attrib['href'],
                 }
-            except:
+            except Exception:
                 yield {
                     'name': products.css('a.product-item-link::text').get(),
                     'price': 'sold out',
